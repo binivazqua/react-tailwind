@@ -3,14 +3,10 @@ import React from "react";
 function Navbar() {
   return (
     <div className="flex justify-between items-center p-4 bg-purple-400 w-screen">
-      <h1 className="text-white font-bold text-xl">Coldwell Banker</h1>
+      <h1 className="text-white font-bold text-3xl">Coldwell Banker</h1>
       <ul className="flex space-x-8">
         <li className="text-amber-50">
-          <a
-            href="/home"
-            className="text-white"
-            style={{ color: "black", textDecoration: "none" }}
-          >
+          <a href="/home" className="text-white">
             Home
           </a>
         </li>
