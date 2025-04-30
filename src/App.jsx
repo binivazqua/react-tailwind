@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
 import { properties } from './data/properties'
 import PropertyCard from './components/PropertyCard'
 import Navbar from './components/Navbar'
