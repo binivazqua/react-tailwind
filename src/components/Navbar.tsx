@@ -28,7 +28,7 @@ function Navbar() {
       >
         <li className="">
           <a
-            href="/home"
+            href="#home"
             className="block w-full bg-white md:bg-transparent text-purple-600 no-underline font-bold px-4 py-2 rounded-lg md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-200 transition text-center"
           >
             Home
@@ -36,18 +36,26 @@ function Navbar() {
         </li>
         <li className="">
           <a
-            href="/catalogue"
+            href="#about"
             className="block w-full bg-white md:bg-transparent text-purple-600 no-underline font-bold px-4 py-2 rounded-lg md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-200 transition text-center"
           >
-            Catalogue
+            About Us
           </a>
         </li>
         <li className="">
           <a
-            href="/contact"
+            href="#services"
             className="block w-full bg-white md:bg-transparent text-purple-600 no-underline font-bold px-4 py-2 rounded-lg md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-200 transition text-center"
           >
-            Contact
+            Services
+          </a>
+        </li>
+        <li className="">
+          <a
+            href="#properties"
+            className="block w-full bg-white md:bg-transparent text-purple-600 no-underline font-bold px-4 py-2 rounded-lg md:rounded-none hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-200 transition text-center"
+          >
+            Properties
           </a>
         </li>
       </ul>

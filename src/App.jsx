@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { properties } from './data/properties'
 import PropertyCard from './components/PropertyCard'
 import Navbar from './components/Navbar'
+import Home from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,11 @@ function App() {
     <div className="min-h-screen w-screen flex flex-col overflow-hidden">
 
       <Navbar />
-
-      {/* Contenedor principal centrado */}
+      <Home/>
+      
+    
+      {/*
+      
       <div className="flex flex-col items-center justify-center m-x-auto w-full px-4">
         <h1 className="text-purple-300 m-5 text-2xl font-bold">Propiedades disponibles</h1>
 
@@ -27,8 +31,10 @@ function App() {
               location={property.location}
             />
           ))}
+      
         </div>
       </div>
+      */}
     </div>
   );
 }
